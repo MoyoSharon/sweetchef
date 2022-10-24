@@ -13,7 +13,7 @@ body {
 }
 #banner::after {
   content: "";
-  background: url(/head4.png);
+  background: url(head4.png);
   top: 0;
   left: 0;
   bottom: 0;
@@ -25,15 +25,6 @@ body {
   text-align: center;
   width: 100%;
 }
-#banner{
-  background-image: url(/head.png);
-  width: 100%;
-  height: auto;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  text-align: center;
-}
-
 .sidenav {
   height: 100%;
   width: 0;
