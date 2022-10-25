@@ -3,6 +3,7 @@ body {
     margin: 0 auto;
     padding: 0;
     background-color: #f1f1f1;
+    height: auto;
 }
 #banner {
   width: 100%;
@@ -140,17 +141,87 @@ body {
   padding: 10px;
   height: auto;
   gap: 10px;
+  position: static;
 }
 .deets {
   color: white;
   font-family: 'Raleway';
   width: 100%;
 }
-#sweets > div {
+#sweets > .it {
   background-color: rgba(0, 0, 0, 0.3);
   text-align: center;
   padding: 20px 0;
   font-weight: 300;
   margin-right: 20px;
   margin-bottom:15px;
+}
+#about {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 180px 180px;
+  justify-content: center;
+  background-color: #f1f1f1;
+  padding: 40px 0px;
+  width: 100%;
+  margin: 20px 40px 20px 0px;
+  row-gap: 10px;
+  column-gap: 0px;
+}
+#about > #about1 {
+  font-weight: bolder;
+  height: 185px;
+}
+#about1 > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#about2 {
+  width: 90%;
+  margin-bottom: 0;
+  padding: 10px auto 2px auto;
+  text-align: center;
+  font-size: 10px;
+  height: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.header {
+  font-weight: 200;
+  font-size: 12px;
+  font-family: 'Raleway';
+  margin-top: 5px;
+  display: block;
+  padding-bottom: 10px;
+}
+.headline {
+  font-family: 'DM serif display';
+  margin: 5px 0;
+  font-size: 13px;
+  display: block;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  padding-top: 0px;
+}
+.text{
+  font-weight: 300;
+  display: block;
+}
+span > a {
+  text-decoration: underline;
+  font-family: 'Raleway';
+  letter-spacing: 0.5px;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: block;
+  padding-top: 5px;
+}
+.granola {
+  margin-top: 0px;
+  margin-bottom: 0;
+  height: 300px;
+  vertical-align: top;
+  padding-bottom: 10px;
 }
