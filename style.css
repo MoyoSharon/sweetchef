@@ -25,6 +25,15 @@ body {
   text-align: center;
   width: 100%;
 }
+#banner{
+  background-image: url(/head.png);
+  width: 100%;
+  height: auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -120,4 +129,28 @@ body {
   padding-bottom: 10px;
   line-height: 1.5;
   font-family: 'Raleway';
+}
+#sweets {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-content: end;
+  background-image: url(sweets.png);
+  background-size: 100% 100%;
+  padding: 10px;
+  height: auto;
+  gap: 10px;
+}
+.deets {
+  color: white;
+  font-family: 'Raleway';
+  width: 100%;
+}
+#sweets > div {
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 300;
+  margin-right: 20px;
+  margin-bottom:15px;
 }
