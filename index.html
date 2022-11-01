@@ -132,10 +132,105 @@
 
     <section id="tutorial">
       <div>
+        <h4 class="tutorial_head">Learn Cooking Online</h4>
+        <p class="tutorial_text">Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit.</p>
+      </div>
+      <div class="tutorial_container">
+        <div class="slides fade">
+          <div class="numbertext">1/6</div>
+          <img src="kitchen_cabinet.jpg" style="width: 100%" id="tutorial_img1">
+        </div>
+        <div class="slides fade">
+          <div class="numbertext">2/6</div>
+          <img src="cake_slice.jpg" style="width: 100%" id="tutorial_img2">
+        </div>
+        <div class="slides fade">
+          <div class="numbertext">3/6</div>
+          <img src="pancake_berry.jpg" style="width: 100%" id="tutorial_img3">
+        </div>
+        <div class="slides fade">
+          <div class="numbertext">4/6</div>
+          <img src="salad.jpeg" style="width: 100%; object-fit: cover;" id="tutorial_img4">
+        </div>
+        <div class="slides fade">
+          <div class="numbertext">5/6</div>
+          <img src="sponge_cake.jpg" style="width: 100%" id="tutorial_img5">
+        </div>
+        <div class="slides fade">
+          <div class="numbertext">6/6</div>
+          <img src="breakfast_table.jpg" style="width: 100%" id="tutorial_img6">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+      </div>
+      <span class="readmore_tutorials">
+        <a href="#">READ MORE</a>
+      </span>
+    </section>
 
+    <section id="pictures">
+      <div class="pictures_container">
+        <div class="pictures_item">
+          <img src="stepone.jpeg" alt="">
+        </div>
+        <div class="pictures_item">
+          <img src="steptwo.jpeg" alt="">
+        </div>
+        <div class="pictures_item">
+          <img src="stepthree.jpeg" alt="">
+        </div>
       </div>
     </section>
+
+    <section id="conclusion">
+      <div>
+        <p class="conclusion">We bring the season’s best mix of organic produce and hand-crafted farm products conveniently to your door by growing and partnering with local farms and artisans in your area.</p>
+        <div class="socials" style="color: white">
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer_container">
+        <div id="footer_items" class="footer_items1">
+          <imsrc="logo.png" alt="">
+        </div>
+        <div id="footer_items" class="footer_items2">
+          <h3>CONTACT</h3>
+          <span><i class="fa-solid fa-phone"></i> <br>+2348064675017</span>
+          <br>
+          <span><i class="fa-solid fa-at"></i> <a href="mailto:mofesharon61@gmail.com">mofesharon61@gmail.com</a></span>
+          <br>
+          <span class="socials">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </span>
+        </div>
+        <div id="footer_items" class="footer_items3">
+          <a href="#menu">Menu</a> <br>
+          <a href="#about">About</a> <br>
+          <a href="#reviews">Posts</a> <br>
+          <a href="#tutorial">Tutorials</a>
+        </div>
+      </div>
+    </footer>
     <script src="main.js"></script>
 </body>
-
 </html>
