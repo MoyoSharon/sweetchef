@@ -27,7 +27,17 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   text-align: center;
+  background-attachment: fixed;
   width: 100%;
+}
+
+#banner {
+  background-image: url(/head.png);
+  width: 100%;
+  height: auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .sidenav {
@@ -156,6 +166,7 @@ body {
   height: auto;
   gap: 10px;
   position: static;
+  background-attachment: fixed;
 }
 
 .deets {
@@ -250,9 +261,10 @@ span>a {
   vertical-align: top;
   padding-bottom: 10px;
 }
-
 #reviews {
   padding: 100px 0;
+  box-sizing: border-box;
+  display: block;
 }
 
 #reviews .reviews_container {
@@ -263,12 +275,13 @@ span>a {
   padding: 20px 30px;
   margin: 0px;
   align-items: center;
+  box-sizing: border-box;
 }
 
 #reviews .reviews_item {
   width: calc(100% / 2);
   height: fit-content;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   margin: 0;
 }
@@ -276,7 +289,7 @@ span>a {
 #reviews .reviews_item img {
   width: 100%;
   height: 460px;
-  display: block;
+  display: inline;
   object-fit: cover;
   margin: 0px;
   padding-bottom: 0px;
@@ -331,6 +344,9 @@ span>a {
     height: fit-content;
     object-fit: cover;
   }
+}
+* {
+  box-sizing: border-box;
 }
 
 #tutorial {
@@ -571,29 +587,26 @@ footer {
   padding: 40px 0;
   color: whitesmoke;
 }
-.footer_items1 {
-  width: 100%;
-  height: auto;
-  object-fit: fill;
-  background-image: url(logo.png);
-  background-size: 100% 100%;
+footer div {
+  display: block;
 }
-.footer_container {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+footer p {
+  font-family: 'DM Serif Display';
+  font-weight: bold;
 }
-#footer_items {
-  width: calc(100% / 3);
-}
-.footer_items3 a {
-  padding: 50px;
-  justify-items: space-evenly;
-  font-size: 5vw;
+footer a {
   font-family: 'Raleway';
+  font-weight: bold;
+  width: 100px;
   color: whitesmoke;
-  text-decoration: none;
 }
-.footer_items3 {
-  padding-top: 60px;
+footer a:link {
+  color: whitesmoke;
+}
+footer a:visited {
+  color: plum;
+  font-family: monospace;
+}
+footer a:active{
+  color: red;
 }
